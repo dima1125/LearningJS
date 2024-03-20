@@ -1,8 +1,14 @@
-//const a = 0;
-//const b = 1;
+const a = 1;
+let result = a < 0 ? "true" : "false";
 
-//let result = a < b ? "a меньше b" : "a больше b";
+console.log(result);
 
-//console.log(result);
+const a = 0;
+let result = a < 0 ? "true" : "false";
 
-console.log("2" + 2 * "2");
+console.log(result);
+
+const a = -30;
+let result = a < 0 ? "true" : "false";
+
+console.log(result);
