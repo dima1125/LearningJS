@@ -1,14 +1,45 @@
-const a = 1;
+/* const a = 1;
 let result = a < 0 ? "true" : "false";
 
 console.log(result);
-
-const a = 0;
+ */
+/* const a = 0;
 let result = a < 0 ? "true" : "false";
 
-console.log(result);
+console.log(result); */
 
-const a = -30;
+/* const a = -30;
 let result = a < 0 ? "true" : "false";
 
+console.log(result); */
+
+/* const a = 1;
+let result = a >= 0 ? "true" : "false";
+
 console.log(result);
+ */
+/* const a = 0;
+let result = a >= 0 ? "true" : "false";
+
+console.log(result); */
+
+/* const a = -30;
+let result = a >= 0 ? "true" : "false";
+
+console.log(result);
+ */
+/* const a = 1;
+let result = a <= 0 ? "true" : "false";
+
+console.log(result);
+ */
+
+/* const a = 0;
+let result = a <= 0 ? "true" : "false";
+
+console.log(result); */
+
+/* const a = -30;
+let result = a <= 0 ? "true" : "false";
+
+console.log(result); */
