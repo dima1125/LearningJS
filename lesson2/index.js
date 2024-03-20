@@ -43,3 +43,67 @@ console.log(result); */
 let result = a <= 0 ? "true" : "false";
 
 console.log(result); */
+
+/* const a = 1;
+if (a < 0) {
+  console.log("верно");
+} else if (a > 0) {
+  console.log("не верно");
+}
+ */
+
+/* const a = 0;
+if (a < 0) {
+  console.log("верно");
+} else if (a > 0) {
+  console.log("не верно");
+} */
+
+/* const a = -30;
+if (a < 0) {
+  console.log("верно");
+} else if (a > 0) {
+  console.log("не верно");
+} */
+
+/* const a = 1;
+if (a >= 0) {
+  console.log("верно");
+} else if (a <= 0) {
+  console.log("не верно");
+} */
+
+/* const a = 0;
+if (a >= 0) {
+  console.log("верно");
+} else if (a <= 0) {
+  console.log("не верно");
+} */
+
+/* const a = -30;
+if (a >= 0) {
+  console.log("верно");
+} else if (a <= 0) {
+  console.log("не верно");
+} */
+
+/* const a = 1;
+if (a <= 0) {
+  console.log("верно");
+} else if (a >= 0) {
+  console.log("не верно");
+} */
+
+/* const a = 0;
+if (a <= 0) {
+  console.log("верно");
+} else if (a >= 0) {
+  console.log("не верно");
+} */
+
+const a = -30;
+if (a <= 0) {
+  console.log("верно");
+} else if (a >= 0) {
+  console.log("не верно");
+}
