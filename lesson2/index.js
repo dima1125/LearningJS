@@ -1,63 +1,62 @@
 /* const a = 1;
 let result = a == 0 ? "верно" : "не верно";
 
-console.log(result); */
+console.log(result); */ /*Ответ не верно*/
 
 /* const a = 0;
 let result = a == 0 ? "верно" : "не верно";
 
-console.log(result); */
+console.log(result); */ /*Ответ верно*/
 
 /* const a = -3;
 let result = a == 0 ? "верно" : "не верно";
 
-console.log(result); */
+console.log(result); */ /*Ответ не верно*/
 
 /* const a = 1;
 let result = a < 0 ? "верно" : "не верно";
 
-console.log(result);
- */
+console.log(result);*/ /*Ответ не верно*/
+
 /* const a = 0;
 let result = a < 0 ? "верно" : "не верно";
 
-console.log(result); */
+console.log(result); */ /*Ответ не верно*/
 
 /* const a = -3;
 let result = a < 0 ? "верно" : "не верно";
 
-console.log(result); */
+console.log(result); */ /*Ответ верно*/
 
 /* const a = 1;
 let result = a >= 0 ? "верно" : "не верно";
 
-console.log(result);
- */
+console.log(result); */ /*Ответ верно*/
+
 /* const a = 0;
 let result = a >= 0 ? "верно" : "не верно";
 
-console.log(result); */
+console.log(result); */ /*Ответ верно*/
 
 /* const a = -3;
 let result = a >= 0 ? "верно" : "не верно";
 
-console.log(result);
- */
+console.log(result); */ /*Ответ не верно*/
+
 /* const a = 1;
 let result = a <= 0 ? "верно" : "не верно";
 
-console.log(result);
- */
+console.log(result); */ /*Ответ не верно*/
 
 /* const a = 0;
 let result = a <= 0 ? "верно" : "не верно";
 
-console.log(result); */
+console.log(result); */ /*Ответ верно*/
 
 /* const a = -3;
 let result = a <= 0 ? "верно" : "не верно";
 
-console.log(result); */
+console.log(result); */ /*Ответ верно*/
 
 /* const a = 1;
 if (a < 0) {
