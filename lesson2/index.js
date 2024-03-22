@@ -442,7 +442,7 @@ if (day > 0 && day <= 10) {
   console.log("Третья декада месяца");
 } Ответ Вторая декада месяца */
 
-month = 9;
+/* month = 9;
 if (month >= 0 && month <= 2) {
   console.log("зима");
 } else if (month >= 3 && month <= 5) {
@@ -451,4 +451,13 @@ if (month >= 0 && month <= 2) {
   console.log("лето");
 } else {
   console.log("осень");
-}
+} */
+
+/* String = "abcde";
+let result = [0] === "a" ? "да" : "нет";
+console.log(result);
+ Ответ нет*/
+
+/* strNum = "'12345'";
+let result = [0] == 1 || [0] == 2 || [0] == 3 ? "да" : "нет";
+console.log(result);  Ответ нет*/
