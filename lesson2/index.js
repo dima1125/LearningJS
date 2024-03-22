@@ -423,3 +423,32 @@ switch (num) {
     console.log("осень");
     break;
 } */
+
+/* day = 25;
+if (day > 0 && day <= 10) {
+  console.log("Первая декада месяца");
+} else if (day > 10 && day <= 20) {
+  console.log("Вторая декада месяца");
+} else {
+  console.log("Третья декада месяца");
+} Ответ Третья декада месяца */
+
+/* day = 18;
+if (day > 0 && day <= 10) {
+  console.log("Первая декада месяца");
+} else if (day > 10 && day <= 20) {
+  console.log("Вторая декада месяца");
+} else {
+  console.log("Третья декада месяца");
+} Ответ Вторая декада месяца */
+
+month = 9;
+if (month >= 0 && month <= 2) {
+  console.log("зима");
+} else if (month >= 3 && month <= 5) {
+  console.log("весна");
+} else if (month >= 6 && month <= 8) {
+  console.log("лето");
+} else {
+  console.log("осень");
+}
