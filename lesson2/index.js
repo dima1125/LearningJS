@@ -368,3 +368,58 @@ if (a == 0 || a == 2) {
   a /= 10;
 }
 console.log(a); Переменная = 9 */
+
+/* const a = 1;
+const b = 3;
+let result1 = a <= 1;//result1 true
+let result2 = b >= 3;//result2 true
+let result3 = a + b;//result3 4
+let result4 = a - b;//result4 -2
+console.log(result1, result2, result3, result4); */
+
+/* const a = 0;
+const b = 6;
+let result1 = a <= 1; //result1 true
+let result2 = b >= 3; //result2 true
+let result3 = a + b; //result3 6
+let result4 = a - b; //result4 -6
+console.log(result1, result2, result3, result4); */
+
+/* const a = 3;
+const b = 5;
+let result1 = a <= 1; //result1 false
+let result2 = b >= 3; //result2 true
+let result3 = a + b; //result3 8
+let result4 = a - b; //result4 -2
+console.log(result1, result2, result3, result4); */
+
+/* const a = 10;
+const b = 10;
+let result = (a > 2 && a < 11) || (b >= 6 && b < 14);
+console.log(result);//Ответ true
+ */
+/* const a = 1;
+const b = 3;
+let result = (a > 2 && a < 11) || (b >= 6 && b < 14);
+console.log(result);//Ответ false */
+
+/* На switch-case */
+
+/* const num = 1;
+const num = 2;
+const num = 3; */
+/* const num = 4;
+switch (num) {
+  case 1:
+    console.log("зима");
+    break;
+  case 2:
+    console.log("весна");
+    break;
+  case 3:
+    console.log("лето");
+    break;
+  case 4:
+    console.log("осень");
+    break;
+} */
