@@ -77,3 +77,12 @@ if (num(1, 5)) {
 }
 console.log(num(5));
 console.log(num(-5)); */
+
+function isNumberInRange(num) {
+  if (isNumberInRange > 0 && isNumberInRange < 10) {
+    return "true";
+  } else {
+    return "false";
+  }
+}
+console.log(isNumberInRange(30));
