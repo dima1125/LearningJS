@@ -68,7 +68,7 @@ if (num(1, 5)) {
   console.log("не верно");
 } */
 
-function num(num) {
+/* function num(num) {
   if (num >= 0) {
     return "положительное";
   } else {
@@ -76,4 +76,4 @@ function num(num) {
   }
 }
 console.log(num(5));
-console.log(num(-5));
+console.log(num(-5)); */
