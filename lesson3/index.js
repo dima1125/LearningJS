@@ -1,5 +1,5 @@
 /* function number(num) {
-  return num ** num;
+  return num ** 2;
 }
 console.log(number(5)); */
 
@@ -58,3 +58,22 @@ if (num(8, 13)) {
 } else {
   console.log("не верно");
 } */
+
+/* function num(num1, num2) {
+  return num1 + num2 > 10;
+}
+if (num(1, 5)) {
+  console.log("верно");
+} else {
+  console.log("не верно");
+} */
+
+function num(num) {
+  if (num >= 0) {
+    return "положительное";
+  } else {
+    return "отрицательное";
+  }
+}
+console.log(num(5));
+console.log(num(-5));
