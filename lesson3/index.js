@@ -59,36 +59,38 @@ if (num(8, 13)) {
   console.log("не верно");
 } */
 
-/* function num(num1, num2) {
+/* function Number(num1, num2) {
   return num1 + num2 > 10;
 }
-if (num(1, 5)) {
+if (Number(9, 3)) {
   console.log("верно");
 } else {
   console.log("не верно");
-} */
+}
+ */
 
-/* function num(num) {
+/* function Number(num) {
   if (num >= 0) {
     return "положительное";
   } else {
     return "отрицательное";
   }
 }
-console.log(num(5));
-console.log(num(-5)); */
+//num = 9;//
+num = -7;
+console.log(Number(num)); */
 
 /* function isNumberInRange(num) {
-  if (isNumberInRange > 0 && isNumberInRange < 10) {
+  if (num > 0 && num < 10) {
     return "true";
   } else {
     return "false";
   }
 }
-console.log(isNumberInRange(100));
- */
+num = 9;
+console.log(isNumberInRange(num)); */
 
-function isEven(num) {
+/* function isEven(num) {
   if (num % 2 == 0) {
     return "четное";
   } else {
@@ -96,4 +98,4 @@ function isEven(num) {
   }
 }
 num = 8;
-console.log(isEven(num));
+console.log(isEven(num)); */
