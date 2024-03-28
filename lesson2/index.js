@@ -458,9 +458,9 @@ let result = [0] === "a" ? "да" : "нет";
 console.log(result);
  Ответ нет*/
 
-/* strNum = "'12345'";
+/* strNum = "12345";
 let result = [0] == 1 || [0] == 2 || [0] == 3 ? "да" : "нет";
-console.log(result);  Ответ нет*/
+console.log(result); Ответ нет */
 
 /* 
 for (let i = 1; i <= 100; i++) {
@@ -477,8 +477,8 @@ for (let i = 1; i <= 100; i++) {
   }
 } */
 
-let sum = 0;
+/* let sum = 0;
 for (let i = 1; i <= 100; i++) {
   sum += i;
 }
-console.log(sum);
+console.log(sum); */
