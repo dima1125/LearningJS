@@ -78,11 +78,22 @@ if (num(1, 5)) {
 console.log(num(5));
 console.log(num(-5)); */
 
-function isNumberInRange(num) {
+/* function isNumberInRange(num) {
   if (isNumberInRange > 0 && isNumberInRange < 10) {
     return "true";
   } else {
     return "false";
   }
 }
-console.log(isNumberInRange(30));
+console.log(isNumberInRange(100));
+ */
+
+function isEven(num) {
+  if (num % 2 == 0) {
+    return "четное";
+  } else {
+    return "не четное";
+  }
+}
+num = 8;
+console.log(isEven(num));
