@@ -266,7 +266,7 @@ let result = test == true ? "верно" : "не верно";
 console.log(result); Ответ верно, т.к переменная true*/
 
 /* const test = true;
-if (test == true) {
+if (test === true) {
   console.log("верно");
 } else {
   console.log("не верно");
@@ -442,14 +442,14 @@ if (day > 0 && day <= 10) {
   console.log("Третья декада месяца");
 } Ответ Вторая декада месяца */
 
-/* month = 9;
+/* month = 11;
 if (month >= 0 && month <= 2) {
   console.log("зима");
 } else if (month >= 3 && month <= 5) {
   console.log("весна");
 } else if (month >= 6 && month <= 8) {
   console.log("лето");
-} else {
+} else if (month >= 9 && month <= 12) {
   console.log("осень");
 } */
 
@@ -461,3 +461,24 @@ console.log(result);
 /* strNum = "'12345'";
 let result = [0] == 1 || [0] == 2 || [0] == 3 ? "да" : "нет";
 console.log(result);  Ответ нет*/
+
+/* 
+for (let i = 1; i <= 100; i++) {
+  console.log(i);
+} */
+
+/* for (let i = 11; i <= 33; i++) {
+  console.log(i);
+} */
+
+/* for (let i = 0; i <= 100; i++) {
+  if (i % 2 == 0) {
+    console.log(i);
+  }
+} */
+
+let sum = 0;
+for (let i = 1; i <= 100; i++) {
+  sum += i;
+}
+console.log(sum);
