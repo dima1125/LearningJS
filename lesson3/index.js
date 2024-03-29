@@ -91,12 +91,12 @@ let num1 = 8;
 let num2 = 8;
 console.log(num(num1, num2)); */
 
-function num(num1, num2) {
+/* function num(num1, num2) {
   return num1 === num2 ? "верно" : "не верно";
 }
 let num1 = 8;
 let num2 = 8;
-console.log(num(num1, num2));
+console.log(num(num1, num2)); */
 
 /* function Number(num1, num2) {
   return num1 + num2 > 10;
