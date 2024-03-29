@@ -50,6 +50,27 @@ function dayWeek(day) {
 dayWeek(day);
  */
 
+/* function dayWeek(day) {
+  if (day == 1) {
+    return "понедельник";
+  } else if (day == 2) {
+    return "вторник";
+  } else if (day == 3) {
+    return "среда";
+  } else if (day == 4) {
+    return "четверг";
+  } else if (day == 5) {
+    return "пятница";
+  } else if (day == 6) {
+    return "суббота";
+  } else if (day == 7) {
+    return "воскресенье";
+  }
+}
+day = 5;
+console.log(dayWeek(day));
+ */
+
 /* function num(num1, num2) {
   return num1 == num2;
 }
@@ -69,6 +90,11 @@ if (Number(9, 3)) {
 }
  */
 
+/* function Number(num1, num2) {
+  return num1 + num2 > 10 ? "верно" : "не верно";
+}
+console.log(Number(3, 3));
+ */
 /* function Number(num) {
   if (num >= 0) {
     return "положительное";
@@ -80,6 +106,11 @@ if (Number(9, 3)) {
 num = -7;
 console.log(Number(num)); */
 
+/* function Number(num) {
+  return num >= 0 ? "положительное" : "отрицательное";
+}
+console.log(Number(-9)); */
+
 /* function isNumberInRange(num) {
   if (num > 0 && num < 10) {
     return "true";
@@ -90,6 +121,11 @@ console.log(Number(num)); */
 num = 9;
 console.log(isNumberInRange(num)); */
 
+/* function isNumberInRange(num) {
+  return num > 0 && num < 10 ? "верно" : "не верно";
+}
+console.log(isNumberInRange(6)); */
+
 /* function isEven(num) {
   if (num % 2 == 0) {
     return "четное";
@@ -99,3 +135,8 @@ console.log(isNumberInRange(num)); */
 }
 num = 8;
 console.log(isEven(num)); */
+
+/* function isEven(num) {
+  return num % 2 ? "не четное" : "четное";
+}
+console.log(isEven(7)); */
