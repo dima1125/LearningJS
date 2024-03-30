@@ -114,10 +114,10 @@ if (Number(9, 3)) {
 console.log(Number(3, 3));
  */
 /* function Number(num) {
-  if (num >= 0) {
-    return "положительное";
+  if (num < 0) {
+    return "true";
   } else {
-    return "отрицательное";
+    return "false";
   }
 }
 //num = 9;//
@@ -125,7 +125,7 @@ num = -7;
 console.log(Number(num)); */
 
 /* function Number(num) {
-  return num >= 0 ? "положительное" : "отрицательное";
+  return num < 0 ? "true" : "false";
 }
 console.log(Number(-9)); */
 
