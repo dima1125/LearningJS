@@ -56,7 +56,7 @@ function removeChar(str) {
 }
 console.log(removeChar(str)); */
 
-function zeros(num, len) {
+/* function zeros(num, len) {
   let len_zer = len - (num + "").length,
     num_zer = "";
   for (; len_zer > 0; len_zer--) {
@@ -68,3 +68,10 @@ function zeros(num, len) {
     : sign + num_zer + num + "";
 }
 console.log(zeros(145, 5 "-"));
+ */ //не правильно//
+
+function comparison(str1, str2) {
+  let result = str1.toUpperCase() === str2.toUpperCase();
+  return result;
+}
+console.log(comparison("string", "sTrInG"));
