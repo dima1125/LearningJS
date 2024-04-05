@@ -56,22 +56,44 @@ function removeChar(str) {
 }
 console.log(removeChar(str)); */
 
-/* function zeros(num, len) {
-  let len_zer = len - (num + "").length,
-    num_zer = "";
-  for (; len_zer > 0; len_zer--) {
-    num_zer += 0;
-  }
-
-  return sign === undefined || sign === ""
-    ? num_zer + num + ""
-    : sign + num_zer + num + "";
-}
-console.log(zeros(145, 5 "-"));
- */ //не правильно//
-
-function comparison(str1, str2) {
+/* function comparison(str1, str2) {
   let result = str1.toUpperCase() === str2.toUpperCase();
   return result;
 }
-console.log(comparison("string", "sTrInG"));
+console.log(comparison("string", "sTrInG")); */
+
+/* function insensitiveSearch(str1, str2) {
+  let search_str = new RegExp(str2, "gi");
+  let result = str1.search(search_str);
+
+  return result > 0 ? "Соответствует" : "Не соответствует";
+}
+console.log(
+  insensitiveSearch("Изучаю web разработку на JavaScript", "javascript")
+); */
+
+/* let str = "hEllo woRld";
+function initCap(str) {
+  return str.toLowerCase().replace(/(?:^|\s)[a-z]/g, function (m) {
+    return m.toUpperCase().replace(/\s+/g, "");
+  });
+}
+
+console.log(initCap(str)); */
+
+/* function repeatStr(str, n) {
+  let new_str = "";
+  while (n-- > 0) new_str += str;
+  return new_str;
+}
+
+console.log(repeatStr("Hello!", 3)); */
+
+/* let pathname = "/lad/academy/js/course";
+
+function path(pathname) {
+  var name = pathname.split("/").pop();
+  return name;
+}
+
+console.log(path(pathname)); */
