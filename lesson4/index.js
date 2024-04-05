@@ -97,3 +97,27 @@ function path(pathname) {
 }
 
 console.log(path(pathname)); */
+
+/* let str = "Юриспруденция — это наука, изучающая свойства государства и права";
+
+function getSubstr(str, char, pos) {
+  if (pos == "after") return str.slice(str.indexOf(char) + 1);
+  else if (pos == "before") return str.slice(0, str.indexOf(char));
+  else return str;
+}
+
+console.log(getSubstr(str, "—", "before")); */
+
+/* function insert(str, substr, pos) {
+  let array = str.split("");
+  array.splice(pos, 0, substr);
+  return array.join("");
+}
+console.log(insert("Казнить нельзя", "Помиловать ", 8)); */
+
+/* function limitStr(str, n, symb) {
+  if (!n && !symb) return str;
+  symb = symb || "...";
+  return str.substr(0, n - symb.length) + symb;
+}
+console.log(limitStr("Каждый охотник желает знать.", 10)); */
