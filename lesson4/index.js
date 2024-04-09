@@ -62,6 +62,22 @@ console.log(removeChar(str)); */
 }
 console.log(comparison("string", "sTrInG")); */
 
+/* const str = "exampleCamelCaseString";
+
+const initSnake = (str) =>
+  str.replace(/([a-z])([A-Z])/g, "$1_$2").toLowerCase(); */
+
+/* const initSnake = (str) => {
+  let tempStr = "";
+  for (let i of str) {
+    tempStr =
+      i === i.toUpperCase() ? tempStr + "_" + i.toLowerCase() : tempStr + i;
+  }
+  return tempStr;
+};
+
+console.log(initSnake(str)); */
+
 /* function insensitiveSearch(str1, str2) {
   let search_str = new RegExp(str2, "gi");
   let result = str1.search(search_str);
