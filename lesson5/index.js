@@ -72,3 +72,28 @@ function matching(first, second) {
 
 numerics = numerics.sort(matching);
 console.log(numerics); */
+
+/* let a = [1, 2, 3];
+let b = [4, 5, 6];
+let c = [7, 8, 9];
+function getArr(a, b, c) {
+  let d = a.concat(b, c);
+  let f = d.pop();
+  while (f != undefined) {
+    console.log(f + " ");
+    f = d.pop();
+  }
+}
+getArr(a, b, c); */
+
+/* let matrix = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+];
+let matrixSum = matrix.map((item) => {
+  return item.reduce((sum, matrix) => sum + matrix, 0);
+});
+let result = matrixSum.reduce((accumulator, current) => accumulator + current);
+
+console.log(result); */
