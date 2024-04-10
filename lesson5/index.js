@@ -97,3 +97,20 @@ let matrixSum = matrix.map((item) => {
 let result = matrixSum.reduce((accumulator, current) => accumulator + current);
 
 console.log(result); */
+
+/* let arr = [0, 1, 2, 3, 4, 5, 6, 7];
+arr.sort((a, b) => b - a);
+console.log(arr); */
+
+/* let arr = [0, 1, 2, 3, 4, 5, 6, 7];
+index = arr.find(
+  (
+    (sum) => (value) =>
+      (sum += value) > 10
+  )(0)
+);
+console.log(index + 1); */
+
+let arr = Array(4);
+arr.fill({ name: "Dima", Job: "notarialnay contora" });
+console.log(arr);
