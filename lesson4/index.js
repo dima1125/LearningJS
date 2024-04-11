@@ -70,6 +70,15 @@ function removeChar(str) {
 }
 console.log(removeChar(str)); */
 
+//8.Напишите функцию zeros(num, len), которая дополняет нулями до указанной длины числовое значение с дополнительным знаком «+» или «-» в зависимости от передаваемого аргумента
+
+/* const zeros = (num, len, sign = "+") => {
+  if (String(num).length > len) return sign + num;
+  return sign + num + "0".repeat(len - String(num).length);
+};
+
+console.log(zeros(111, 3, "-")); */
+
 //9. Напишите функцию comparison(str1, str2), которая сравнивает строки без учёта регистра символов.
 
 /* function comparison(str1, str2) {
