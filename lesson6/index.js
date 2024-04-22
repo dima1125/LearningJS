@@ -108,22 +108,23 @@ console.log(curry(2)(10)(-13)); */
 
 // 8. Реализовать таймер-функцию используя замыкания. Функция принимает два  аргумента начальное значение и значение завершения. Таймер движется назад.При достижении точки завершения в консоль выводится значение таймера и сообщение о завершении работы таймера.
 
-/* let timer;
-let n = 10;
-countdown();
-function countdown() {
-  document.getElementById("timer").innerHTML = x;
-  x--;
-  if (x < 1) {
-    clearTimeout(timer);
-    console.log("завершение работы таймера");
-  } else {
-    timer = setTimeout(countdown, 1000);
-  }
-} */
+/* const createTimer = () => {
+  let count;
+  return (start, finish) => {
+    count = start;
+    const interval = setInterval(() => {
+      if (count < finish) {
+        console.log("Время вышло!");
+        clearInterval(interval);
+        return;
+      }
+      console.log(count);
+      count--;
+    }, 1000);
+  };
+};
 
-/* const timerId = setTimeout(() => {
-  console.log("завершение работы таймера");
-}, 1000);
+const timer = createTimer();
 
-console.log(timerId); */
+timer(10, 0);
+ */
